@@ -1,13 +1,14 @@
 import streamlit as st
 
+# ========== FOR PRODUCTION USE ==========
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style>
-
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# ========================================
 
 st.title('안녕하세요!')
 st.write('대충 만들었어요')
